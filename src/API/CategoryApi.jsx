@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useState , useEffect} from 'react'
 
-const url = 'http://dummyjson.com'
+const url = 'https://dummyjson.com'
 
 function CategoryApi() {
   const [category , setCategory] = useState([])

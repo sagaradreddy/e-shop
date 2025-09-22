@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import ProductCard from "../helper/ProductCard";
 
-const url = "http://dummyjson.com";
+const url = "https://dummyjson.com";
 
 function Product() {
   const [product, setProduct] = useState([]);

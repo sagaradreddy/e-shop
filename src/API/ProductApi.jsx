@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const url = `http://dummyjson.com`;
+const url = `https://dummyjson.com`;
 
 function ProductApi() {
   const [products, setProducts] = useState([]);
